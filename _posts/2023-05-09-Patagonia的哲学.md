@@ -6,6 +6,7 @@ description:
 ---
 
 ![image-1](https://d07a0a97.telegraph-image-b0a.pages.dev/file/3da573c2eb39b988801b4.png)
+
 伊冯·乔伊纳德在19岁时，还是一名身无分文的登山者，他在汽车的后备箱里，制作和销售攀岩装备。
 
 65年后，他将这个事业变成了一个价值数十亿美元的公司，以下是他建立 Patagonia 所学到的经验教训。
