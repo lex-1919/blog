@@ -1,18 +1,13 @@
 ---
-title: Colophon
+title: jialiang
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: false
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+一对伟大父母的孩子。
 
-If you have a question about him or else, just send a letter to him.
+4岁养过一群可爱小鸭，5岁上幼儿园失败，7岁一天喝完一箱牛奶，9岁全校第二胖，10岁画画上了电视，12岁钓过一水桶小龙虾，14岁获得一个诡异的绰号，16岁离家出走半天，17岁全班倒数第四，18岁全班第四，20岁在山上骑车差点冲出悬崖，21岁在操场跑完一个半马，23岁自学设计后在上海讨生活，27岁有了一个三人小团队，28岁弄倒闭了一个公司，29岁取到了美丽善良的妻子，31岁人生继续……
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+人生的风景，亲像大海的风涌。
