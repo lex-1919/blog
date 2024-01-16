@@ -5,6 +5,25 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {% include header.html %}
 
+<head>
+  <!-- 在这里添加 head 部分 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  
+  {% if site.valine.enable %}
+  <!-- 引入 Valine 脚本 -->
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+  <script>
+    new Valine({
+      el: '#vcomments',
+      appId: '{{ tral9h9saYgdLOY4xCHgAKMP-MdYXbMMI }}',
+      appKey: '{{ ASHIoeJpkixrsSPvBvb6eo2O }}',
+    });
+  </script>
+  {% endif %}
+</head>
+
 <body data-theme="{{ site.mode }}" class="notransition">
 
   <script>
