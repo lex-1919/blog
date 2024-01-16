@@ -1,9 +1,3 @@
-waline:
-  enable: true
-  app_id: tral9h9saYgdLOY4xCHgAKMP-MdYXbMMI
-  app_key: ASHIoeJpkixrsSPvBvb6eo2O
-
-
 # Site settings
 title: jialiang # site title
 description: >- # site description
