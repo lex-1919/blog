@@ -78,19 +78,20 @@ layout: compress
         {% include comments.html %}
       {% endif %}
 
-      <!-- waline评论 -->
-    <div id="waline"></div>
-    <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
-
-    init({
-      el: '#waline',
-      serverURL: 'https://waline.jialiang.one',
-    });
-  </script>
+    
 
     </main>
 
+      <!-- waline评论 -->
+      <div id="waline"></div>
+      <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  
+      init({
+        el: '#waline',
+        serverURL: 'https://waline.jialiang.one',
+      });
+    </script>
 
     {% if page.modified %}
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
