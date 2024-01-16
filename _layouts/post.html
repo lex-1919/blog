@@ -80,6 +80,11 @@ layout: compress
 
     </main>
 
+    <!-- 评论区域 -->
+    {% if page.comments %}
+      {% waline %}
+    {% endif %}
+
 
     {% if page.modified %}
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
