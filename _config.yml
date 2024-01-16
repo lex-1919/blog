@@ -1,9 +1,3 @@
-# 添加Valine评论配置
-valine:
-  enable: true
-  appId: tral9h9saYgdLOY4xCHgAKMP-MdYXbMMI
-  appKey: ASHIoeJpkixrsSPvBvb6eo2O
-
 # Site settings
 title: jialiang # site title
 description: >- # site description

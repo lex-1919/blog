@@ -80,10 +80,6 @@ layout: compress
 
     </main>
 
-      <!-- Valine 评论框 -->
-      {% if site.valine.enable %}
-      <div id="vcomments"></div>
-      {% endif %}
 
     {% if page.modified %}
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
