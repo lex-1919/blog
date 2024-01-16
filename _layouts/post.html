@@ -78,6 +78,19 @@ layout: compress
         {% include comments.html %}
       {% endif %}
 
+
+    </main>
+
+    {% if page.modified %}
+      <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
+    {% endif %}
+    {% if page.next or page.previous %}
+      {% include navigation.html %}
+    {% endif %}
+
+    {% include footer.html %}
+  </div>
+
       <!-- 在适当的位置添加 -->
       <div id="gitalk-container"></div>
       <!-- 在适当的位置添加 -->
@@ -95,19 +108,6 @@ layout: compress
 
         gitalk.render('gitalk-container');
       </script>
-
-
-    </main>
-
-    {% if page.modified %}
-      <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
-    {% endif %}
-    {% if page.next or page.previous %}
-      {% include navigation.html %}
-    {% endif %}
-
-    {% include footer.html %}
-  </div>
 
 </body>
 
