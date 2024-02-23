@@ -227,7 +227,6 @@ h6 > a {
   &:hover {
     text-decoration: none;
     border: none;
-    outline: none;
   }
 }
 
@@ -235,16 +234,15 @@ h6 > a {
 a {
   color: inherit;
   text-decoration-color: $smoke;
-  outline: none;
 
   &:hover {
     color: $text-link-blue;
   }
 
   &:focus {
-    outline: 3px solid rgba(0, 54, 199, 0.6);
-    outline-offset: 2px;
+    outline: none;
   }
+  
 }
 
 // Del
